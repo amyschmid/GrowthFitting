@@ -1,0 +1,9 @@
+function e=logisticError(x,t,m)
+r=x(1);
+t0=x(2);
+%h=1./(1 + exp(4*um .* (lambda - t) + 2));
+h=1./(1+exp(-r*(t-t0)));
+% um = x(1);
+% lambda = x(2);
+% h=1./(1 + exp((4*um/1)*(lambda-t)+2));
+e=m'*m-(h'*m)^2/(h'*h);
