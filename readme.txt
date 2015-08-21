@@ -4,6 +4,7 @@ Microbial growth fitting pipeline first reported in Darnell and Schmid, 2015 "Sy
 * Example raw data are available in:
 o Schmid et al., 2011, Nucleic Acids Research, 39(7): 2519-2533, Supplementary Table 1.
 o Sharma et al., 2012, BMC Genomics, 31:351, Additional File 3. 
+*Raw growth data for the entire KEIO collection are included in this repository in the  rawdata folder. These data are reported in Kulp et al., 2015, PLOS ONE.  
 * Original equations for calculations derived from Zwietering et al., 1990, Appl Env Microbiol, 56: 1875-1881.
 Dependencies
 * MatLab (version 8.5)
